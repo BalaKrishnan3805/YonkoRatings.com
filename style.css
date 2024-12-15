@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+nav{
+
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+li,img,ul{
+    display: inline;
+}
+ul{
+    margin-left: 70%;
+}
+li{
+    color: rosybrown;
+    cursor: pointer;
+    
+
+}
+li:hover{
+    color: white;
+}
+input{
+    width: 70%;
+    padding: 20px;
+}
+.searchbar{
+
+    padding: 60px;
+    
+}
+.box{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.movies{
+    text-align:center ;
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+.updates{
+    margin: 30px;
+    text-align: center;
+}
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
